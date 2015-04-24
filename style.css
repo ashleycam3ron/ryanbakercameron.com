@@ -30,6 +30,7 @@ nav ul{margin: 0;list-style: none;padding: 0;}
 .hide, nav h2{display: none;}
 .clear{clear: both;}
 
+.test-git{color: red;}
 #page {margin: 0;padding: 72px 0 30px;}
 .home #page,
 .blog #page {padding:0 0 30px;}
