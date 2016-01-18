@@ -1,11 +1,19 @@
 <?php get_header(); ?>
 
 <div id="main-content" class="main-content">
+<<<<<<< HEAD
 
 	<div id="primary" class="content-area">
 		<div id="header-img">
 	<?php //get last post featured image
 		$last = get_posts("post_type=post&numberposts=1");
+=======
+	
+	<div id="primary" class="content-area">	
+		<div id="header-img">	
+	<?php //get last post featured image
+		$last = get_posts("post_type=post&numberposts=1");			
+>>>>>>> a21fa87059e0c5af219cbe087e935cdbdfc48045
 			the_post_thumbnail($last[0]->ID,'full');
 			if ( has_post_thumbnail() ) { ?>
 				<?php the_post_thumbnail('full');?>
@@ -14,7 +22,11 @@
 		<?php } ?>
 			<div id="text">
 				<h2><?php the_title(); ?></h2>
+<<<<<<< HEAD
 <!-- 				<p><?php the_content(); ?></p> -->
+=======
+				<p><?php the_content(); ?></p>
+>>>>>>> a21fa87059e0c5af219cbe087e935cdbdfc48045
 			</div>
 		</div>
 
@@ -28,7 +40,11 @@
 	  <button class="button" data-filter=".category-software">software</button>
 	  <button class="button" data-filter=".category-engineering">engineering</button>
 	</div>
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> a21fa87059e0c5af219cbe087e935cdbdfc48045
 	<div id="sorts" class="button-group">
 	  <h2>Sort</h2>
 	  <button class="button is-checked" data-sort-by="original-order">date</button>
@@ -54,7 +70,11 @@
 </ul>
 -->
 		<div id="content" class="site-content" role="main">
+<<<<<<< HEAD
 
+=======
+		
+>>>>>>> a21fa87059e0c5af219cbe087e935cdbdfc48045
 			<?php while ( have_posts() ) : the_post();
 					get_template_part( 'content', 'blog' );
 				endwhile; ?>
@@ -66,7 +86,11 @@
 -->
 
 		</div><!-- #content -->
+<<<<<<< HEAD
 
+=======
+		
+>>>>>>> a21fa87059e0c5af219cbe087e935cdbdfc48045
 		<!-- <div class="clear"></div> -->
 	</div><!-- #primary -->
 </div><!-- #main-content -->
