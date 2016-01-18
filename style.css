@@ -34,7 +34,6 @@ nav ul{margin: 0;list-style: none;padding: 0;}
 .home #page,
 .blog #page {padding:0 0 30px;}
 
-<<<<<<< HEAD
 /* !WordPress Core */
 	.alignnone{margin:5px 20px 20px 0}
 	.aligncenter,div.aligncenter{display:block;margin:5px auto}
@@ -56,8 +55,6 @@ nav ul{margin: 0;list-style: none;padding: 0;}
 	.gallery-caption{}
 	.bypostauthor{}
 
-=======
->>>>>>> a21fa87059e0c5af219cbe087e935cdbdfc48045
 /* !typography */
 	h1,h2,h3,h4,h5,h6{}
 	h2.title {color: #555;width: 25%;margin: 5% 0 15px;text-align: left;font-size: 48px;/* display: none; */}

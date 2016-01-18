@@ -6,7 +6,6 @@ function custom_menu($t) {
 	remove_menu_page('edit-comments.php');
 	remove_menu_page('edit.php?post_type=sp_organizer' );
 	//remove_menu_page( 'edit.php' );                   //Posts
-<<<<<<< HEAD
 
 	#custom menu labels
 	global $menu;
@@ -16,17 +15,7 @@ function custom_menu($t) {
 	    switch($v[0]){
 		    case 'Posts':
 				$menu[$k][0] = 'Blog';
-=======
-	
-	#custom menu labels
-	global $menu;
-	global $submenu;
-	
-    foreach($menu as $k=>$v){
-	    switch($v[0]){
-		    case 'Posts':
-				$menu[$k][0] = 'News';
->>>>>>> a21fa87059e0c5af219cbe087e935cdbdfc48045
+
 				break;
 			/*
 case 'Appearance':
