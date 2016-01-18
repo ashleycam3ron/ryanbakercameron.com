@@ -1,0 +1,1 @@
+[29-Jun-2015 11:34:47 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/ryanbake/public_html/ryan/v2/wp-content/themes/ryan/index.php on line 1
